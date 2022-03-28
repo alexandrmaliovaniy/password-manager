@@ -1,11 +1,18 @@
 {
-  "name": "password-manager",
+  "name": "password-manager-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "password-manager-cli": "index.js"
+  },
   "scripts": {
     "start": "node index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "mute-stream": "^0.0.8"
+  }
 }
