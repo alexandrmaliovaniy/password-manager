@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const crypto = require('crypto');
 const read = require('./read.js');
 const path = require('path');
